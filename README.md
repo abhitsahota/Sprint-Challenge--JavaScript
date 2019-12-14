@@ -47,7 +47,7 @@ Explicit, using call apply or bind we can bind to specific object
 New, used when creating new objects from a constructor. An empty object is referenced by the this variable
 
 5. Why do we need super() in an extended class?
-- super() keywords is used to make sure that the parent class called via the child’s constructor will inherit the parent’s properties. Similar to the pre-ES6 `Parent.call` 
+- super() keywords is used to make sure that the parent class called via the child’s constructor will inherit the parent’s methods. Similar to the pre-ES6 `Parent.call` 
 
 
 ## Project Set up
