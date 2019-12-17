@@ -29,14 +29,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+- Map returns a new array, forEach modifies the existing array
+
 
 2. What is the difference between a function and a method?
+- Methods are called on objects, passed on the data. Functions are set of instructions called on by name.
+
 
 3. What is closure?
+- A function remembering the context of when it was created within the program, and holding all of those variables.
+
 
 4. Describe the four rules of the 'this' keyword.
+- Global, call a function from the global context and this refers to the global object
+Implicit, bound to the object preceding the ‘dot this’
+Explicit, using call apply or bind we can bind to specific object
+New, used when creating new objects from a constructor. An empty object is referenced by the this variable
 
 5. Why do we need super() in an extended class?
+- super() keywords is used to make sure that the parent class called via the child’s constructor will inherit the parent’s methods. Similar to the pre-ES6 `Parent.call` 
+
 
 ## Project Set up
 
